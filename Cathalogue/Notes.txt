@@ -1,0 +1,14 @@
+-prix spécial pour les X premiers acheteurs - a regler plus tard
+-associer une photo de produit a une couleur
+	couleurs : rouge / 
+-ajouter les tailles - done
+-verifier que la commande affiche les caractéristiques du produit
+-verifier que l'on peux avoir un récapitulatif de l'ensemble des commandes afin de simplifier les commandes fournisseur
+-verifier que l'on peux effectuer un zoom su le produi (optionnel)
+
+NOTES pour roger maire : 
+-Comment gerer la vente des produits associatifs ?
+sur un produit (ex sweat), montrer un poduit demo avec par ex 'region d'alsace floquédessus'  proposer un module de devis,
+moins moche https://addons.prestashop.com/fr/devis/17042-demande-de-devis.html
+https://addons.prestashop.com/fr/devis/3725-ask-for-a-quote-devis.html
+pb : auucn ne propose d'associer un message a la commande // dois se resoudre
