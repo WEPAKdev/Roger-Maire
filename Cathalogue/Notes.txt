@@ -12,3 +12,5 @@ sur un produit (ex sweat), montrer un poduit demo avec par ex 'region d'alsace f
 moins moche https://addons.prestashop.com/fr/devis/17042-demande-de-devis.html
 https://addons.prestashop.com/fr/devis/3725-ask-for-a-quote-devis.html
 pb : auucn ne propose d'associer un message a la commande // dois se resoudre
+-creer un compte paypal pour tester l'achat de produits
+-creer une adresse mail pour l'entreprise pour la recupération des mail clients

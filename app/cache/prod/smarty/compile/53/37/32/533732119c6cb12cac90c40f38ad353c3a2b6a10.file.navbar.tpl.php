@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-09 02:39:36
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-09 21:47:06
          compiled from "C:\wamp64\www\RogerMaireLocal\modules\welcome\views\navbar.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:245035a03b1d8730e29-90512386%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:248335a04becabbfdf1-72330820%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '245035a03b1d8730e29-90512386',
+  'nocache_hash' => '248335a04becabbfdf1-72330820',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a03b1d8767943_02312312',
+  'unifunc' => 'content_5a04becabf49d1_94821465',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a03b1d8767943_02312312')) {function content_5a03b1d8767943_02312312($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a04becabf49d1_94821465')) {function content_5a04becabf49d1_94821465($_smarty_tpl) {?>
 
 <div class="onboarding-navbar">
   <div class="row text">

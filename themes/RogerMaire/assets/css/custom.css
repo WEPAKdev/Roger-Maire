@@ -2,6 +2,16 @@
  * Custom code goes here.
  * A template should always ship with an empty custom.css
  */
+#header .header-top {
+    padding-top: 1.25rem;
+}
+.container{
+    width:100%;
+}
+#_desktop_logo{
+    display:flex;
+    justify-content: center;
+}
 @media (max-width: 360px) {
 
 }
@@ -15,5 +25,25 @@
 
 }
 @media (min-width: 1200px) {
-
+    #search_widget{
+        width:10%;
+    }
+    #_desktop_top_menu{
+        width:60%;
+    }
+    #user-card-nav{
+        width: 20%;
+        float: right;
+    }
+    #user-card-nav .right-nav{
+        width:100%;
+    }
+    #user-card-nav #_desktop_user_info{
+        width:50%;
+        float:left;
+    }
+    #user-card-nav #_desktop_cart{
+        width:50%;
+        float:left;
+    }
 }
