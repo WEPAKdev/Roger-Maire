@@ -56,12 +56,13 @@
 @media (min-width: 768px) {
     #search_widget{
         width:20%;
+        padding:0;
     }
     #_desktop_top_menu{
         width:auto;
     }
     #user-card-nav{
-        width: 25%;
+        width: 15%;
         float: right;
     }
     #user-card-nav .right-nav{
@@ -89,4 +90,14 @@
     #user-card-nav #_desktop_user_info span.hidden-sm-down{
         display:block;
     }
+
+    #user-card-nav{
+        width: 25%;
+        float: right;
+    }
+}
+
+/*TMP*/
+#main #content .block-categories{
+    display:none;
 }

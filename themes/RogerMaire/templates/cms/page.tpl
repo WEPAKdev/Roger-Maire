@@ -33,6 +33,9 @@
 
     {block name='cms_content'}
       {$cms.content nofilter}
+      {foreach from=$categories item=sub_category}
+        <div style="width:150px; height 150px; background-color:red"><a href="{$sub_category.link}">{$sub_category.name}</a></div>
+      {/foreach}
     {/block}
 
     {block name='hook_cms_dispute_information'}
