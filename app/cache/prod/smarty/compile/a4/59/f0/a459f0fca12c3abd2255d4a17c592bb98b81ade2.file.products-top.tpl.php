@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-09 21:46:12
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-10 00:17:36
          compiled from "C:\wamp64\www\RogerMaireLocal\themes\RogerMaire\templates\catalog\_partials\products-top.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:139955a04be94993b82-82952417%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:232695a04e210ab0fe8-38875110%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -17,7 +17,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '139955a04be94993b82-82952417',
+  'nocache_hash' => '232695a04e210ab0fe8-38875110',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5a04be94ae79b7_64960418',
+  'unifunc' => 'content_5a04e210c62a44_13447723',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5a04be94ae79b7_64960418')) {function content_5a04be94ae79b7_64960418($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a04e210c62a44_13447723')) {function content_5a04e210c62a44_13447723($_smarty_tpl) {?>
 <div id="js-product-list-top" class="row products-selection">
   <div class="col-md-6 hidden-sm-down total-products">
     <?php if ($_smarty_tpl->tpl_vars['listing']->value['pagination']['total_items']>1) {?>
@@ -46,8 +46,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       
         <?php /*  Call merged included template "catalog/_partials/sort-orders.tpl" */
 $_tpl_stack[] = $_smarty_tpl;
- $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('catalog/_partials/sort-orders.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('sort_orders'=>$_smarty_tpl->tpl_vars['listing']->value['sort_orders']), 0, '139955a04be94993b82-82952417');
-content_5a04be949f7578_27653677($_smarty_tpl);
+ $_smarty_tpl = $_smarty_tpl->setupInlineSubTemplate('catalog/_partials/sort-orders.tpl', $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array('sort_orders'=>$_smarty_tpl->tpl_vars['listing']->value['sort_orders']), 0, '232695a04e210ab0fe8-38875110');
+content_5a04e210b512c3_39585358($_smarty_tpl);
 $_smarty_tpl = array_pop($_tpl_stack); 
 /*  End of included template "catalog/_partials/sort-orders.tpl" */?>
       
@@ -68,9 +68,9 @@ $_smarty_tpl = array_pop($_tpl_stack);
   </div>
 </div>
 <?php }} ?>
-<?php /* Smarty version Smarty-3.1.19, created on 2017-11-09 21:46:12
+<?php /* Smarty version Smarty-3.1.19, created on 2017-11-10 00:17:36
          compiled from "C:\wamp64\www\RogerMaireLocal\themes\RogerMaire\templates\catalog\_partials\sort-orders.tpl" */ ?>
-<?php if ($_valid && !is_callable('content_5a04be949f7578_27653677')) {function content_5a04be949f7578_27653677($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5a04e210b512c3_39585358')) {function content_5a04e210b512c3_39585358($_smarty_tpl) {?>
 <span class="col-sm-3 col-md-3 hidden-sm-down sort-by"><?php echo smartyTranslate(array('s'=>'Sort by:','d'=>'Shop.Theme.Global'),$_smarty_tpl);?>
 </span>
 <div class="<?php if (!empty($_smarty_tpl->tpl_vars['listing']->value['rendered_facets'])) {?>col-sm-9 col-xs-8<?php } else { ?>col-sm-12 col-xs-12<?php }?> col-md-9 products-sort-order dropdown">
