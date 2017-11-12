@@ -262,5 +262,6 @@
       </footer>
     {/block}
   </section>
+  {debug}
 
 {/block}
