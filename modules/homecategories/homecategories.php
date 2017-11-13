@@ -38,7 +38,7 @@ class Homecategories extends Module
     {
         if (!parent::install())
             return false;
-        $this->registerHook('displayHome');
+        $this->registerHook('displayHomecategories');
         return true;
     }
 
@@ -49,13 +49,24 @@ class Homecategories extends Module
         return true;
     }
 
-    public function hookDisplayHome($params)
+    public function hookDisplayHomecategories($params)
     {
+        //get categories (id/title/desc/link)
+        $req =  "SELECT c.id_category as id, cl.name, cl.description, cl.link_rewrite as link_cat "
+                ."FROM "._DB_PREFIX_."category c JOIN "._DB_PREFIX_."category_lang cl ON c.id_category = cl.id_category "
+                ."WHERE active = 1 AND id_parent = (SELECT id_category FROM ps_category WHERE is_root_category = 1) "
+                ."ORDER BY position ASC";
+
+        $result = Db::getInstance()->ExecuteS($req);
+
+        //regroupement des resultats
+
         $this->context->smarty->assign(
             array(
                 'my_module_name' => Configuration::get('MYMODULE_NAME'),
                 'my_module_link' => $this->context->link->getModuleLink('mymodule', 'display'),
-                'test'           => 'yoo'
+                'categories'     => $result,
+                'marque'         => 'MAIRE ROGER'
             )
         );
         return $this->display(__FILE__, 'homecategories.tpl');

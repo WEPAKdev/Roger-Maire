@@ -30,6 +30,7 @@
 
         {block name='page_content'}
           {block name='hook_home'}
+              {hook h='displayHomecategories' mod='homecategories'}
               {$HOOK_HOME nofilter}
           {/block}
         {/block}
