@@ -375,6 +375,7 @@ class Ps_MainMenu extends Module implements WidgetInterface
 
         $html = '<select multiple="multiple" name="items[]" id="items" style="width: 300px; height: 160px;">';
         foreach ($menu_item as $item) {
+            var_dump($item);
             if (!$item) {
                 continue;
             }

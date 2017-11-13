@@ -752,6 +752,7 @@ class HookCore extends ObjectModel
         Hook::$executed_hooks[$id_hook] = $hook_name;
 
         $context = Context::getContext();
+//        var_dump($context->smarty->tpl_vars);
         if (!isset($hook_args['cookie']) || !$hook_args['cookie']) {
             $hook_args['cookie'] = $context->cookie;
         }
