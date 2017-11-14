@@ -52,7 +52,7 @@ class Homecategories extends Module
     public function hookDisplayHomecategories($params)
     {
         //get categories (id/title/desc/link)
-        $req =  "SELECT c.id_category as id, cl.name, cl.description, cl.link_rewrite as link_cat "
+        $req =  "SELECT c.id_category as id, cl.name titre, cl.description, cl.link_rewrite as link_cat "
                 ."FROM "._DB_PREFIX_."category c JOIN "._DB_PREFIX_."category_lang cl ON c.id_category = cl.id_category "
                 ."WHERE active = 1 AND id_parent = (SELECT id_category FROM ps_category WHERE is_root_category = 1) "
                 ."ORDER BY position ASC";
@@ -65,10 +65,12 @@ class Homecategories extends Module
             array(
                 'my_module_name' => Configuration::get('MYMODULE_NAME'),
                 'my_module_link' => $this->context->link->getModuleLink('mymodule', 'display'),
+                'cat_img_dir'    => _PS_CAT_IMG_DIR_,
                 'categories'     => $result,
                 'marque'         => 'MAIRE ROGER'
             )
         );
+
         return $this->display(__FILE__, 'homecategories.tpl');
     }
 }
