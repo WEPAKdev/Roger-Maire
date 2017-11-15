@@ -65,7 +65,8 @@ class Homecategories extends Module
             array(
                 'my_module_name' => Configuration::get('MYMODULE_NAME'),
                 'my_module_link' => $this->context->link->getModuleLink('mymodule', 'display'),
-                'cat_img_dir'    => _PS_CAT_IMG_DIR_,
+                'cat_img_dir'    => __PS_BASE_URI__,
+                'server_dir'     => __PS_BASE_URI__,
                 'categories'     => $result,
                 'marque'         => 'MAIRE ROGER'
             )
