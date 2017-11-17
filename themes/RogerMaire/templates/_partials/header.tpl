@@ -65,7 +65,7 @@
             </div>
             <div class="hidden-sm-down" id="text-flag">
               <p>MADE IN FRANCE | HAUT DE GAMME</p>
-              <p id="marque-text"><span style="color:blue;">MARQUE</span><span style="color:white;"> MAIRE</span><span style="color:red;"> ROGER</span></p>
+              <p id="marque-text"><span style="color:#4f89ff;">MARQUE</span><span style="color:white;"> MAIRE</span><span style="color:red;"> ROGER</span></p>
             </div>
           </div>
             <div class="clearfix"></div>
